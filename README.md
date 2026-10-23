@@ -10,6 +10,7 @@ Scales, timing, backing tracks and songs, with every note you play judged in rea
   <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.0-windows-x64.zip"><b>Download for Windows (.zip, preview)</b></a> ·
   <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases">All releases</a>
 </p>
+<p align="center"><b>English</b> · <a href="README.ko.md">한국어</a></p>
 
 ![Scale practice: the fretboard shows the whole scale, the current position and the note to play now](images/scale.png)
 
@@ -106,20 +107,7 @@ Found a bug or have an idea? Open an [issue](https://github.com/kita-ikuyo-star/
 
 ## 한국어
 
-**Ringout(링아웃)** 은 메트로놈·드럼·백킹 트랙에 맞춰 지판에 지금 칠 음을 보여 주고, 기타 소리를 듣고 맞게 쳤는지 바로 판정하는 무료 기타 연습 앱입니다. 화면은 한국어·영어를 지원합니다.
-
-- **스케일**: 펜타토닉(5박스·3NPS)·블루스·메이저/마이너·모드·하모닉/멜로딕 마이너·크로매틱, 포지션 잇기·한 줄·두 줄, 시퀀스·3도·랜덤·프레이즈, 스케일별 추천 연습
-- **판정**: 박마다 맞음/틀림/놓침, 정확도·연속 기록·타이밍, 지연 보정, 튜너, 벤딩·비브라토 연습, 아르페지오·CAGED, 지판 퀴즈
-- **박자**: 30–300 BPM 메트로놈, 여러 박자표, 드럼 패턴, 리듬 훈련(2·4박, 엇박, 갭 클릭), 속도 훈련
-- **백킹 트랙**: 내장 17개와 직접 만들기, 코드톤 판정, 더블스톱·코드 전체 화음 확인
-- **곡**: Guitar Pro 7·8(.gp) 타브·악보 따라치기, 오디오 파일 속도·음높이 조절과 구간 반복, 기타·반주 따로 녹음
-- **기록**: 자동 연습 기록, 정확도 색 달력, 연습 루틴
-- **소리**: 장치·채널 선택, 내장 기타 소리(앰프·캐비닛), 플러그인(Mac AU, Windows VST3)
-
-**내려받기**: 위의 Mac(.dmg) 또는 Windows(.zip, 미리 보기) 링크.
-Mac은 처음 열 때 **시스템 설정 → 개인정보 보호 및 보안 → 그래도 열기**, Windows는 SmartScreen에서 **추가 정보 → 실행**을 누르세요.
-
-**개인정보**: 인터넷에 연결하지 않으며, 기록·설정·녹음은 이 컴퓨터에만 저장됩니다.
-**이용 조건**: 무료(프리웨어), 판매·고친 판 배포 금지. 자세한 내용은 [LICENSE.txt](LICENSE.txt), 오픈소스 고지는 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+**Ringout(링아웃)** 은 기타 소리를 듣고 맞게 쳤는지 바로 판정하는 무료 기타 연습 앱입니다(Mac, Windows 미리 보기).
+기능·설치·개인정보·이용 조건을 한국어로 보려면 **[한국어 안내 페이지](README.ko.md)** 를 보세요.
 
 <sub>© 2026 Ringout</sub>
