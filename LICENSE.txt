@@ -1,0 +1,40 @@
+Ringout — Freeware Licence
+Copyright © 2026 Ringout. All rights reserved.
+
+Ringout ("the app") is free of charge. By downloading or using it you agree to the following.
+
+1. Use
+   You may install and use the app on any number of your own computers, for personal or professional practice and teaching.
+
+2. Restrictions
+   You may not sell, rent or charge for the app, include it in a paid product, or distribute modified copies.
+   You may not remove or alter its copyright, licence or third-party notices.
+   To share the app, please share the link to the official download page rather than the files.
+
+3. Third-party components
+   Parts of the app are covered by their own licences (VST3 SDK — MIT; Bravura — SIL OFL 1.1;
+   alphaTab-derived playback-order code — MPL 2.0). Those licences are included with the app
+   and this licence does not limit any right they give you.
+
+4. No warranty
+   The app is provided "as is", without warranty of any kind, express or implied, including fitness for a
+   particular purpose. To the extent permitted by law, the authors are not liable for any damage arising
+   from its use, including loss of data or damage to audio equipment or hearing. Keep monitoring volume safe.
+
+5. Trademarks
+   VST and ASIO are trademarks of Steinberg Media Technologies GmbH. Guitar Pro is a trademark of Arobas Music.
+   Other names belong to their owners. The app is not affiliated with or endorsed by them.
+
+---
+
+Ringout — 프리웨어 이용 조건
+Copyright © 2026 Ringout. All rights reserved.
+
+1. 사용: 내 컴퓨터 여러 대에 설치해 개인 연습·레슨 등에 무료로 쓸 수 있습니다.
+2. 제한: 판매·대여·유료 제품에 포함·고친 판의 배포는 할 수 없습니다. 저작권·이용 조건·오픈소스 고지를 지우거나 바꿀 수 없습니다.
+   다른 사람에게 알릴 때는 파일 대신 공식 내려받기 페이지 링크를 알려 주세요.
+3. 오픈소스: 일부 구성 요소는 각자의 라이선스(VST3 SDK MIT, Bravura OFL 1.1, alphaTab에서 옮긴 코드 MPL 2.0)를 따르며,
+   이 조건은 그 라이선스가 주는 권리를 제한하지 않습니다.
+4. 보증 없음: 있는 그대로 제공하며, 법이 허용하는 한 사용으로 생긴 손해(데이터 손실, 장비·청력 손상 포함)에 책임지지 않습니다.
+   모니터링 볼륨은 안전하게 맞추세요.
+5. 상표: VST·ASIO는 Steinberg, Guitar Pro는 Arobas Music의 상표이며, 이 앱은 그 회사들과 관계가 없습니다.
