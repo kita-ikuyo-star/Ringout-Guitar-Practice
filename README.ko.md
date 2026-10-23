@@ -6,8 +6,8 @@
 <sub>macOS · Windows(미리 보기) · 한국어 / English · 왼손잡이 보기 · 무료</sub></p>
 
 <p align="center">
-  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.1.dmg"><b>Mac용 내려받기 (.dmg)</b></a> ·
-  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.1-windows-x64.zip"><b>Windows용 내려받기 (.zip, 미리 보기)</b></a> ·
+  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.2.dmg"><b>Mac용 내려받기 (.dmg)</b></a> ·
+  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.2-windows-x64.zip"><b>Windows용 내려받기 (.zip, 미리 보기)</b></a> ·
   <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases">모든 릴리스</a>
 </p>
 <p align="center"><a href="README.md">English</a> · <b>한국어</b></p>
@@ -27,7 +27,7 @@ Ringout은 메트로놈·드럼·백킹 트랙에 맞춰 지판에 **지금 칠 
 
 ### 듣고 판정
 - 실시간 음높이 인식으로 박마다 맞음 / 틀림 / 놓침, 정확도·연속 기록·타이밍 오차.
-- 지연 보정, 옥타브 무시 옵션, 스트로보·바늘 튜너(A4 = 430–450Hz).
+- **지연 보정 재기**: 클릭 10번에 맞춰 음을 하나씩 치면 내 장비의 지연을 잽니다 *(1.1.2 새 기능)*. 옥타브 무시 옵션, 스트로보·바늘 튜너(A4 = 430–450Hz).
 - **벤딩 연습**(¼~1½음, 센트 단위로 측정), **비브라토 연습**(템포에 맞춘 흔들기 간격, 목표 폭, 음높이 그래프).
 - 아르페지오와 CAGED 모양, 지판 퀴즈(음 찾기, 음 이름 맞히기, 음정, 듣고 찾기).
 
@@ -41,6 +41,7 @@ Ringout은 메트로놈·드럼·백킹 트랙에 맞춰 지판에 **지금 칠 
 ![백킹 트랙: 지금 코드의 코드톤을 지판에 표시](images/ko-backing.png)
 - 내장 트랙 17개(블루스, 마이너 블루스, 팝, 록, 펑크, 레게, 디스코, 발라드, 왈츠 등). 코드·베이스·드럼은 모두 이 앱에서 직접 만든 것이고, 키·템포를 마음대로 바꾸거나 나만의 트랙을 만들 수 있습니다.
 - **코드톤 연습**: 아무 코드톤, 루트, 3·5·7도, 가이드 톤, 돌아가며. 더블스톱과 코드 전체를 치면 어떤 음이 빠졌는지 알려 줍니다.
+- 코드 진행에 코드마다 몇 마디 이어지는지 보여 주고 지금 마디를 밝게 표시합니다 *(1.1.2 새 기능)*.
 
 ### 곡
 ![곡: Guitar Pro 타브와 악보, 지판](images/ko-songs-tab.png)
@@ -59,6 +60,11 @@ Ringout은 메트로놈·드럼·백킹 트랙에 맞춰 지판에 **지금 칠 
 - **설정 → 일반 → 왼손잡이 지판**을 켜면 모든 지판을 좌우로 뒤집어, 내 기타 넥을 볼 때처럼 너트가 오른쪽에 옵니다. *(1.1.1 새 기능)*
 - 음 이름은 그대로 읽히고, 줄 순서와 타브·악보 표기는 표준 그대로이며, 지판을 눌러 답하기(퀴즈, 비브라토 음 고르기)도 똑같이 됩니다.
 
+### 매일 연습하기 편하게 *(1.1.2 새 기능)*
+- **이어서 연습**: 탭·키·스케일·포지션·템포·백킹 트랙·곡 설정을 기억합니다(Mac은 오디오 장치·입력 채널·지연 보정도).
+- 처음 켜면 **시작하기 안내**: 기타 연결 → 소리 확인 → 지연 보정 → 첫 연습. Mac은 **도움말** 메뉴, Windows는 **F1**로 다시 엽니다.
+- **단축키**: 스페이스 바 시작·정지, ↑/↓ 템포 ±1(Shift ±5), ⌘1–⌘7 / Ctrl+1–7 연습 탭, M 메트로놈만.
+
 ### 소리와 장비
 - 입력·출력 장치와 입력 채널 선택, 모니터링, 버퍼 최소 32프레임.
 - 앰프·캐비닛 음색을 입힌 내장 기타 소리(클린, 오버드라이브, 디스토션, 통기타).
@@ -70,7 +76,7 @@ Ringout은 메트로놈·드럼·백킹 트랙에 맞춰 지판에 **지금 칠 
 |---|---|---|
 | 시스템 | macOS 14 Sonoma 이상, Apple 실리콘(M1 이상) | Windows 10·11 64비트 |
 | 오디오 | 악기(Hi-Z) 입력이 있는 오디오 인터페이스와 헤드폰 권장 | 같음. WASAPI(공유·독점) |
-| 파일 | `Ringout-1.1.1.dmg` | `Ringout-1.1.1-windows-x64.zip` |
+| 파일 | `Ringout-1.1.2.dmg` | `Ringout-1.1.2-windows-x64.zip` |
 
 마이크로도 쓸 수 있지만, 스피커로 튼 메트로놈 소리가 마이크로 들어가면 음높이 인식을 방해하므로 헤드폰을 쓰세요.
 
@@ -88,7 +94,7 @@ Ringout은 메트로놈·드럼·백킹 트랙에 맞춰 지판에 **지금 칠 
 > Windows 판은 **미리 보기**입니다. Mac 판과 같은 코드로 만들었지만 아직 실제 Windows PC에서 확인하지 않았습니다. 문제가 있으면 [Issues](https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/issues)에 알려 주세요.
 
 **내려받은 파일 확인**(선택): 릴리스 페이지의 `SHA256SUMS.txt`와 비교하세요.
-Mac: `shasum -a 256 Ringout-1.1.1.dmg` · Windows: `certutil -hashfile Ringout-1.1.1-windows-x64.zip SHA256`
+Mac: `shasum -a 256 Ringout-1.1.2.dmg` · Windows: `certutil -hashfile Ringout-1.1.2-windows-x64.zip SHA256`
 
 ## 개인정보
 
