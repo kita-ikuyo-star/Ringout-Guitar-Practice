@@ -3,11 +3,11 @@
 <h1 align="center">Ringout</h1>
 <p align="center"><b>Guitar practice that listens.</b><br>
 Scales, timing, backing tracks and songs, with every note you play judged in real time.<br>
-<sub>macOS · Windows (preview) · English / 한국어 · free</sub></p>
+<sub>macOS · Windows (preview) · English / 한국어 · left-handed view · free</sub></p>
 
 <p align="center">
-  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.0.dmg"><b>Download for Mac (.dmg)</b></a> ·
-  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.0-windows-x64.zip"><b>Download for Windows (.zip, preview)</b></a> ·
+  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.1.dmg"><b>Download for Mac (.dmg)</b></a> ·
+  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.1-windows-x64.zip"><b>Download for Windows (.zip, preview)</b></a> ·
   <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases">All releases</a>
 </p>
 <p align="center"><b>English</b> · <a href="README.ko.md">한국어</a></p>
@@ -54,6 +54,11 @@ and listens to your guitar to tell you whether you hit it: right note, wrong not
 - A calendar coloured by accuracy, your best tempo for each exercise, and "practise this again" suggestions.
 - Ready-made **practice routines** (25, 35 and 43 minutes), or build your own.
 
+### Left-handed players
+![Left-handed view: the fretboard mirrored with the nut on the right](images/lefthanded.png)
+- Turn on **Settings → General → Left-handed fretboard** to mirror every fretboard so the nut is on the right, the way you see your own neck. *(new in 1.1.1)*
+- Note names stay readable, string order and tab/score notation stay standard, and tapping the fretboard (quiz, vibrato note picker) works the same.
+
 ### Sound and gear
 - Choose input and output devices and the input channel; monitoring; buffer sizes down to 32 frames.
 - Built-in guitar sound with amp and cabinet voicing (clean, overdrive, distortion, acoustic).
@@ -65,7 +70,7 @@ and listens to your guitar to tell you whether you hit it: right note, wrong not
 |---|---|---|
 | System | macOS 14 Sonoma or later, Apple silicon (M1 or later) | Windows 10 or 11, 64-bit |
 | Audio | Audio interface with an instrument (Hi-Z) input recommended; headphones recommended | Same. WASAPI (shared or exclusive) |
-| Download | `Ringout-1.1.0.dmg` | `Ringout-1.1.0-windows-x64.zip` |
+| Download | `Ringout-1.1.1.dmg` | `Ringout-1.1.1-windows-x64.zip` |
 
 A microphone works too, but a metronome playing through speakers into a microphone confuses the pitch detection, so use headphones.
 
@@ -83,7 +88,7 @@ A microphone works too, but a metronome playing through speakers into a micropho
 > The Windows version is a **preview**. It is built from the same code as the Mac app but hasn't been tested on Windows PCs yet. Please report any problems in [Issues](https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/issues).
 
 **Check your download** (optional): compare with `SHA256SUMS.txt` on the release page.
-Mac: `shasum -a 256 Ringout-1.1.0.dmg` · Windows: `certutil -hashfile Ringout-1.1.0-windows-x64.zip SHA256`
+Mac: `shasum -a 256 Ringout-1.1.1.dmg` · Windows: `certutil -hashfile Ringout-1.1.1-windows-x64.zip SHA256`
 
 ## Privacy
 
