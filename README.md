@@ -6,8 +6,8 @@ Scales, timing, backing tracks and songs, with every note you play judged in rea
 <sub>macOS · Windows (preview) · English / 한국어 · left-handed view · free</sub></p>
 
 <p align="center">
-  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.2.dmg"><b>Download for Mac (.dmg)</b></a> ·
-  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.2-windows-x64.zip"><b>Download for Windows (.zip, preview)</b></a> ·
+  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.3.dmg"><b>Download for Mac (.dmg)</b></a> ·
+  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.3-windows-x64.zip"><b>Download for Windows (.zip, preview)</b></a> ·
   <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases">All releases</a>
 </p>
 <p align="center"><b>English</b> · <a href="README.ko.md">한국어</a></p>
@@ -21,6 +21,7 @@ and listens to your guitar to tell you whether you hit it: right note, wrong not
 
 ### Practise scales the way you'd practise with a teacher
 - Minor/major pentatonic (5 boxes or 3 notes per string), blues, natural minor/major, the modes (Dorian to Locrian), harmonic and melodic minor, chromatic. All 12 keys; standard, half-step-down and drop D tuning.
+- Seven-note scales as 3-notes-per-string or **CAGED** shapes (5 positions: each pentatonic box plus the two remaining notes) *(CAGED new in 1.1.3)*.
 - One position, linked positions, one string, or two strings across the whole neck.
 - Patterns: up, down, up-and-back, groups of 3 and 4, thirds, random order, and practice phrases written for the app.
 - Moves to the next position or a new key every N laps; **suggested practice** for each scale in a sensible learning order.
@@ -76,7 +77,7 @@ and listens to your guitar to tell you whether you hit it: right note, wrong not
 |---|---|---|
 | System | macOS 14 Sonoma or later, Apple silicon (M1 or later) | Windows 10 or 11, 64-bit |
 | Audio | Audio interface with an instrument (Hi-Z) input recommended; headphones recommended | Same. WASAPI (shared or exclusive) |
-| Download | `Ringout-1.1.2.dmg` | `Ringout-1.1.2-windows-x64.zip` |
+| Download | `Ringout-1.1.3.dmg` | `Ringout-1.1.3-windows-x64.zip` |
 
 A microphone works too, but a metronome playing through speakers into a microphone confuses the pitch detection, so use headphones.
 
@@ -94,7 +95,7 @@ A microphone works too, but a metronome playing through speakers into a micropho
 > The Windows version is a **preview**. It is built from the same code as the Mac app but hasn't been tested on Windows PCs yet. Please report any problems in [Issues](https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/issues).
 
 **Check your download** (optional): compare with `SHA256SUMS.txt` on the release page.
-Mac: `shasum -a 256 Ringout-1.1.2.dmg` · Windows: `certutil -hashfile Ringout-1.1.2-windows-x64.zip SHA256`
+Mac: `shasum -a 256 Ringout-1.1.3.dmg` · Windows: `certutil -hashfile Ringout-1.1.3-windows-x64.zip SHA256`
 
 ## Privacy
 

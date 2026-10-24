@@ -6,8 +6,8 @@
 <sub>macOS · Windows(미리 보기) · 한국어 / English · 왼손잡이 보기 · 무료</sub></p>
 
 <p align="center">
-  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.2.dmg"><b>Mac용 내려받기 (.dmg)</b></a> ·
-  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.2-windows-x64.zip"><b>Windows용 내려받기 (.zip, 미리 보기)</b></a> ·
+  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.3.dmg"><b>Mac용 내려받기 (.dmg)</b></a> ·
+  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.3-windows-x64.zip"><b>Windows용 내려받기 (.zip, 미리 보기)</b></a> ·
   <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases">모든 릴리스</a>
 </p>
 <p align="center"><a href="README.md">English</a> · <b>한국어</b></p>
@@ -21,6 +21,7 @@ Ringout은 메트로놈·드럼·백킹 트랙에 맞춰 지판에 **지금 칠 
 
 ### 선생님과 하듯 스케일 연습
 - 마이너·메이저 펜타토닉(5박스 또는 줄당 3음), 블루스, 내추럴 마이너·메이저, 모드(도리안~로크리안), 하모닉·멜로딕 마이너, 크로매틱. 12키, 표준·반음 다운·드롭 D 튜닝.
+- 7음 스케일은 줄당 3음 또는 **CAGED** 모양(5 포지션: 펜타토닉 박스마다 나머지 두 음을 더한 모양) *(CAGED는 1.1.3 새 기능)*.
 - 한 포지션, 포지션 잇기, 한 줄, 두 줄로 지판 전체.
 - 패턴: 상행·하행·상행→하행, 3음·4음 시퀀스, 3도 도약, 랜덤 순서, 이 앱을 위해 새로 만든 연습 프레이즈.
 - N바퀴마다 다음 포지션이나 다른 키로 자동 이동, 스케일마다 익히는 순서대로 **추천 연습**.
@@ -76,7 +77,7 @@ Ringout은 메트로놈·드럼·백킹 트랙에 맞춰 지판에 **지금 칠 
 |---|---|---|
 | 시스템 | macOS 14 Sonoma 이상, Apple 실리콘(M1 이상) | Windows 10·11 64비트 |
 | 오디오 | 악기(Hi-Z) 입력이 있는 오디오 인터페이스와 헤드폰 권장 | 같음. WASAPI(공유·독점) |
-| 파일 | `Ringout-1.1.2.dmg` | `Ringout-1.1.2-windows-x64.zip` |
+| 파일 | `Ringout-1.1.3.dmg` | `Ringout-1.1.3-windows-x64.zip` |
 
 마이크로도 쓸 수 있지만, 스피커로 튼 메트로놈 소리가 마이크로 들어가면 음높이 인식을 방해하므로 헤드폰을 쓰세요.
 
@@ -94,7 +95,7 @@ Ringout은 메트로놈·드럼·백킹 트랙에 맞춰 지판에 **지금 칠 
 > Windows 판은 **미리 보기**입니다. Mac 판과 같은 코드로 만들었지만 아직 실제 Windows PC에서 확인하지 않았습니다. 문제가 있으면 [Issues](https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/issues)에 알려 주세요.
 
 **내려받은 파일 확인**(선택): 릴리스 페이지의 `SHA256SUMS.txt`와 비교하세요.
-Mac: `shasum -a 256 Ringout-1.1.2.dmg` · Windows: `certutil -hashfile Ringout-1.1.2-windows-x64.zip SHA256`
+Mac: `shasum -a 256 Ringout-1.1.3.dmg` · Windows: `certutil -hashfile Ringout-1.1.3-windows-x64.zip SHA256`
 
 ## 개인정보
 
