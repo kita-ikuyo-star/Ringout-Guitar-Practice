@@ -6,8 +6,8 @@
 <sub>macOS · Windows(미리 보기) · 한국어 / English · 왼손잡이 보기 · 무료</sub></p>
 
 <p align="center">
-  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.3.dmg"><b>Mac용 내려받기 (.dmg)</b></a> ·
-  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.3-windows-x64.zip"><b>Windows용 내려받기 (.zip, 미리 보기)</b></a> ·
+  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.2.1.dmg"><b>Mac용 내려받기 (.dmg)</b></a> ·
+  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.2.1-windows-x64.zip"><b>Windows용 내려받기 (.zip, 미리 보기)</b></a> ·
   <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases">모든 릴리스</a>
 </p>
 <p align="center"><a href="README.md">English</a> · <b>한국어</b></p>
@@ -47,8 +47,22 @@ Ringout은 메트로놈·드럼·백킹 트랙에 맞춰 지판에 **지금 칠 
 ### 곡
 ![곡: Guitar Pro 타브와 악보, 지판](images/ko-songs-tab.png)
 - **Guitar Pro 7·8(.gp)** 타브 열기: 악보와 타브 보기, 반복·코다 펼치기, 음마다 판정, 25–150% 속도, 반복마다 빨라지는 구간 반복, 내장 기타 소리로 연주.
+- **구간 반복 사이에 숨 돌리기**: 바퀴 사이에 소리 없는 마디를 1·2·4마디 쉬고, 바퀴마다 한 마디 카운트인을 넣을 수 있습니다(메트로놈을 꺼도 울림). 속도 훈련을 켜면 카운트인부터 새 템포로 들립니다. *(1.2 새 기능)*
 - **오디오 파일**(MP3·M4A·WAV·AIFF·FLAC)로 곡 익히기: 음높이 그대로 속도 조절, 음높이 ±12반음, 끊김 없는 A–B 구간 반복, 표시 달기.
 - 기타와 반주를 따로 **녹음**하고 다시 듣기, 믹스 내보내기.
+
+### 곡에서 어디가 틀렸는지 *(1.2 새 기능, Mac)*
+![멈추면 음마다 결과 색, 마디 정확도, 마우스를 올린 음의 자세한 결과](images/ko-score-review.png)
+- **악보에서**: 멈추면 음마다 친 결과로 색을 칠하고(초록 맞음, 노랑 가끔 틀림·음 빠진 화음, 빨강 틀림, 주황 놓침), 마디마다 정확도를, 일찍·늦게 친 음에는 ◀ / ▶를 표시합니다. 음에 마우스를 올리면 대신 친 음과 타이밍을 보여 줍니다.
+- **분석 창**(곡 탭 → **분석**): 정확도, 평균 타이밍을 ms와 그 템포의 음표 길이로(예: "35ms 늦게 ≈ 32분음표"), 흔들림, 박에 맞게 친 비율, 타이밍 분포, 반복 바퀴별 정확도.
+- **살펴볼 점**: 서두름·끌림, 종류별 약점(빠른 음, 엇박, 화음, 해머링·풀링, 슬라이드, 벤딩, 특정 줄), 화음에서 자주 울리지 않는 음, 옥타브·한두 프렛 차이로 틀린 음.
+- **마디 지도와 자주 틀리는 음**: 약한 마디와 자주 틀리는 음, 그때 대신 친 음. 누르면 그 마디를 바로 구간 반복합니다.
+- **곡마다 기록**: **전체 기록**으로 바꾸면 그 곡에서 친 모든 결과와 지난 연습, 마디마다 나아지는지를 볼 수 있습니다.
+- **"박에 맞게"는 빠르기를 따릅니다** *(1.2.1)*: 어긋남은 음 사이가 얼마나 가까운지에 비례해 들리고, 클릭과 겹치면 약 20~30ms부터 들립니다. 그래서 빠른 음은 ±20ms, 느린 음은 ±30ms 안에 들어와야 합니다(다음 음까지 간격의 5%).
+
+![분석 창: 요약, 살펴볼 점, 타이밍 분포, 바퀴별 정확도, 약한 마디](images/ko-analysis.png)
+
+연습 분석은 지금은 Mac에서만 됩니다. Windows 미리 보기 판에는 다음에 추가됩니다.
 
 ### 연습 기록
 ![연습 기록과 달력](images/ko-log.png)
@@ -77,7 +91,7 @@ Ringout은 메트로놈·드럼·백킹 트랙에 맞춰 지판에 **지금 칠 
 |---|---|---|
 | 시스템 | macOS 14 Sonoma 이상, Apple 실리콘(M1 이상) | Windows 10·11 64비트 |
 | 오디오 | 악기(Hi-Z) 입력이 있는 오디오 인터페이스와 헤드폰 권장 | 같음. WASAPI(공유·독점) |
-| 파일 | `Ringout-1.1.3.dmg` | `Ringout-1.1.3-windows-x64.zip` |
+| 파일 | `Ringout-1.2.1.dmg` | `Ringout-1.2.1-windows-x64.zip` |
 
 마이크로도 쓸 수 있지만, 스피커로 튼 메트로놈 소리가 마이크로 들어가면 음높이 인식을 방해하므로 헤드폰을 쓰세요.
 
@@ -95,7 +109,7 @@ Ringout은 메트로놈·드럼·백킹 트랙에 맞춰 지판에 **지금 칠 
 > Windows 판은 **미리 보기**입니다. Mac 판과 같은 코드로 만들었지만 아직 실제 Windows PC에서 확인하지 않았습니다. 문제가 있으면 [Issues](https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/issues)에 알려 주세요.
 
 **내려받은 파일 확인**(선택): 릴리스 페이지의 `SHA256SUMS.txt`와 비교하세요.
-Mac: `shasum -a 256 Ringout-1.1.3.dmg` · Windows: `certutil -hashfile Ringout-1.1.3-windows-x64.zip SHA256`
+Mac: `shasum -a 256 Ringout-1.2.1.dmg` · Windows: `certutil -hashfile Ringout-1.2.1-windows-x64.zip SHA256`
 
 ## 개인정보
 

@@ -6,8 +6,8 @@ Scales, timing, backing tracks and songs, with every note you play judged in rea
 <sub>macOS · Windows (preview) · English / 한국어 · left-handed view · free</sub></p>
 
 <p align="center">
-  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.3.dmg"><b>Download for Mac (.dmg)</b></a> ·
-  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.1.3-windows-x64.zip"><b>Download for Windows (.zip, preview)</b></a> ·
+  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.2.1.dmg"><b>Download for Mac (.dmg)</b></a> ·
+  <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases/latest/download/Ringout-1.2.1-windows-x64.zip"><b>Download for Windows (.zip, preview)</b></a> ·
   <a href="https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/releases">All releases</a>
 </p>
 <p align="center"><b>English</b> · <a href="README.ko.md">한국어</a></p>
@@ -47,8 +47,22 @@ and listens to your guitar to tell you whether you hit it: right note, wrong not
 ### Songs
 ![Songs: Guitar Pro tab with score and the fretboard](images/songs-tab.png)
 - Open **Guitar Pro 7/8 (.gp)** tabs: score and tab view, repeats and codas unrolled, every note judged, playback at 25–150 %, loops that speed up each pass, and built-in guitar playback.
+- **A breather between loops**: rest 1, 2 or 4 silent bars between passes, and add a one-bar count-in before each pass (it clicks even with the metronome off). With speed training on, the count-in already plays at the new tempo. *(new in 1.2)*
 - Learn from **audio files** (MP3, M4A, WAV, AIFF, FLAC): change speed without changing pitch, shift pitch ±12 semitones, seamless A–B loops, markers.
 - **Record** your guitar and the backing as separate tracks, listen back and export a mix.
+
+### See what went wrong in a song *(new in 1.2, Mac)*
+![After you stop: each note coloured by how you played it, bar accuracy, and a note's details on hover](images/score-review.png)
+- **On the score**: when you stop, every note is coloured by how you played it (green hit, yellow sometimes wrong or a chord with a missing note, red wrong, orange missed), each bar shows its accuracy, and ◀ / ▶ mark notes you play early or late. Hover over a note to see what you played instead and your timing.
+- **Analysis window** (Songs → **Analysis**): accuracy, average timing in ms *and* as a note length at that tempo (e.g. "35 ms late ≈ 1/32 note"), spread, the share of notes on the beat, a timing chart, and accuracy for each loop pass.
+- **What to work on**: rushing or dragging, and weak spots by type (fast notes, off-beats, chords, hammer-ons and pull-offs, slides, bends, a particular string), chord notes that often don't ring, and wrong notes that are an octave or 1–2 frets off.
+- **Bar map and problem notes**: the weakest bars and the notes you miss most, with what you played instead. One click loops that bar.
+- **History for each song**: switch to **All sessions** to see everything you've played in that song, past sessions and whether each bar is improving.
+- **"On the beat" follows the tempo** *(1.2.1)*: a slip is heard relative to how close the notes are, and against the click from about 20–30 ms. So fast notes must land within ±20 ms and slow ones within ±30 ms (5 % of the gap to the next note).
+
+![Analysis window: summary, tips, timing chart, accuracy by pass and the weakest bars](images/analysis.png)
+
+The practice analysis is Mac-only for now; the Windows preview will get it later.
 
 ### Track your progress
 ![Practice log with calendar](images/log.png)
@@ -77,7 +91,7 @@ and listens to your guitar to tell you whether you hit it: right note, wrong not
 |---|---|---|
 | System | macOS 14 Sonoma or later, Apple silicon (M1 or later) | Windows 10 or 11, 64-bit |
 | Audio | Audio interface with an instrument (Hi-Z) input recommended; headphones recommended | Same. WASAPI (shared or exclusive) |
-| Download | `Ringout-1.1.3.dmg` | `Ringout-1.1.3-windows-x64.zip` |
+| Download | `Ringout-1.2.1.dmg` | `Ringout-1.2.1-windows-x64.zip` |
 
 A microphone works too, but a metronome playing through speakers into a microphone confuses the pitch detection, so use headphones.
 
@@ -95,7 +109,7 @@ A microphone works too, but a metronome playing through speakers into a micropho
 > The Windows version is a **preview**. It is built from the same code as the Mac app but hasn't been tested on Windows PCs yet. Please report any problems in [Issues](https://github.com/kita-ikuyo-star/Ringout-Guitar-Practice/issues).
 
 **Check your download** (optional): compare with `SHA256SUMS.txt` on the release page.
-Mac: `shasum -a 256 Ringout-1.1.3.dmg` · Windows: `certutil -hashfile Ringout-1.1.3-windows-x64.zip SHA256`
+Mac: `shasum -a 256 Ringout-1.2.1.dmg` · Windows: `certutil -hashfile Ringout-1.2.1-windows-x64.zip SHA256`
 
 ## Privacy
 
